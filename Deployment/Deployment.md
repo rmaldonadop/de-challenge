@@ -27,7 +27,7 @@ cd deploy
 ```
 python -m venv python-etl
 ```
-- copy the requirements.txt file and the et
+- copy the requirements.txt file and the etl-db.py file
 - activate the virtual enviroment
 ```
 windows: tutorial-env\Scripts\activate.bat
