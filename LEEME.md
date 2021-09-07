@@ -17,4 +17,4 @@ For the data model, I choose to use "Oracle SQL Developer Data Modeler" tool, fo
 - Can generate SQL scripts with the tables definitions for SQL Server Database
 
 ## Deployment 
-The Deployment instructions are in the folder Deployment.
+The deploy instructions are in the Deployment.md file in the Deployment folder.
