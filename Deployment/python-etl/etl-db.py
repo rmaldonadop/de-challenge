@@ -9,14 +9,22 @@ import pyodbc
 def main():
     print('Starting the ETL process')
 
-    url_consoles_csv = 'https://raw.githubusercontent.com/walmartdigital/de-challenge/main/data/consoles.csv'
-    url_results_csv = 'https://raw.githubusercontent.com/walmartdigital/de-challenge/main/data/result.csv'
-    mssql_odbcDriver = 'SQL Server'
-    mssql_server = 'localhost,1433'
-    mssql_database = 'ETL_DB'
-    mssql_user = 'sa'
-    mssql_pass = '!etl_DB1'
+    #get datafile config
+    config = configparser.ConfigParser()
+    try:
+        config.read('Config.ini')
+    except Exception as e:
+        print('cound not read the config.ini file' + str(e))
+        sys.exit()
 
+    #read setting from configuration file
+    url_consoles_csv = config['CONFIG']['url_consoles_csv']
+    url_results_csv = config['CONFIG']['url_results_csv']
+    mssql_odbcDriver = config['CONFIG']['odbcDriver']
+    mssql_server = config['CONFIG']['server']
+    mssql_database = config['CONFIG']['database']
+    mssql_user = config['CONFIG']['user']
+    mssql_pass = config['CONFIG']['pass']
 
     #load consoles.csv file
     print('loading consoles.csv file...')

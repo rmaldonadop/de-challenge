@@ -18,7 +18,8 @@
 - Python 3.7
 
 # Python Code deployment
-- create a directory for the deployment and open it
+- create a directory for the deployment
+- copy the requirements.txt, config.ini and etl-db.py files in the depoy directory (from the python folder)
 ```
 mkdir "deploy"
 cd deploy
@@ -27,13 +28,12 @@ cd deploy
 ```
 python -m venv python-etl
 ```
-- copy the requirements.txt file and the etl-db.py file
 - activate the virtual enviroment
 ```
 windows: tutorial-env\Scripts\activate.bat
 Mac or Unix: source tutorial-env/bin/activate
 ```
-- install the requirements with pip
+- install the requirements with pip using the requirements.txt file
 ```
 pip install -r requirements.txt
 ```
