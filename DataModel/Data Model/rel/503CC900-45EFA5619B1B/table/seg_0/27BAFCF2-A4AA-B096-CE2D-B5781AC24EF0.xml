@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="27BAFCF2-A4AA-B096-CE2D-B5781AC24EF0" name="console">
+<createdBy>Panky</createdBy>
+<createdTime>2021-09-04 21:28:41 UTC</createdTime>
+<generatorID>2D872B5B-AE4A-ECF8-4CED-9D68125C36C8</generatorID>
+<ownerDesignName>Data Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_console" id="C157D676-43C7-011A-9EAA-E1420E48BC2B">
+<createdBy>Panky</createdBy>
+<createdTime>2021-09-04 21:28:41 UTC</createdTime>
+<generatorID>4861D6DF-1268-BB8E-BED2-5E088B60A197</generatorID>
+<ownerDesignName>Data Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="console_name" id="062302DC-30B1-0115-394D-EFDE14666680">
+<createdBy>Panky</createdBy>
+<createdTime>2021-09-04 21:28:41 UTC</createdTime>
+<generatorID>18028238-A3C4-CBBC-B256-71C516BAF2E1</generatorID>
+<ownerDesignName>Data Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="company_id_company" id="DCEC1DC4-481E-D01A-EAD6-BF5C024B0293">
+<createdBy>Panky</createdBy>
+<createdTime>2021-09-04 21:28:41 UTC</createdTime>
+<generatorID>802BC2F0-DEA5-4A7A-035A-8866F80D8220</generatorID>
+<ownerDesignName>Data Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3C68968C-5232-CBC5-73EC-E88FB7B1533A" referredColumn="7CC6506F-3F02-0433-F6DB-5F2B3F5A114A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B18C4D47-C29A-6BEE-2354-7ACE8444B0BD" name="console_PK">
+<createdBy>Panky</createdBy>
+<createdTime>2021-09-04 21:28:41 UTC</createdTime>
+<generatorID>8E1A9E3D-6FDA-FCAA-F7D9-CCEA721DDC5E</generatorID>
+<ownerDesignName>Data Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C157D676-43C7-011A-9EAA-E1420E48BC2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8876F810-B44D-AA05-A6E5-658610C3161E" name="console_company_FK">
+<createdBy>Panky</createdBy>
+<createdTime>2021-09-04 21:28:41 UTC</createdTime>
+<generatorID>33ADCD68-CC3F-A240-E7EE-CD2921AC9AE7</generatorID>
+<ownerDesignName>Data Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCEC1DC4-481E-D01A-EAD6-BF5C024B0293"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

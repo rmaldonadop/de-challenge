@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="videogame_videogame_score_FK" directorySegmentName="seg_0" id="DF3C83B1-9F73-9AE6-021E-88FB50527EB7">
+<createdBy>Panky</createdBy>
+<createdTime>2021-08-31 20:29:00 UTC</createdTime>
+<generatorID>99B80A0B-F479-DCDE-2C16-34EAEB5B9CAD</generatorID>
+<ownerDesignName>Data Model</ownerDesignName>
+<engineerTo>
+<item key="503CC900-4387-C5A5-AD92-45EFA5619B1B" value="true"/>
+</engineerTo>
+<sourcePk>F14CB101-C3BA-61EC-2E1A-CEDD861F8E37</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>78BFCCD9-986A-7B73-7AE2-E502B168A04A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B961949B-045F-1D14-8A44-18EB2E84529C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

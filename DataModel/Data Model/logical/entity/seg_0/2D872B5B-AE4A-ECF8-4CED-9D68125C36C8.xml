@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2D872B5B-AE4A-ECF8-4CED-9D68125C36C8" name="console">
+<createdBy>Panky</createdBy>
+<createdTime>2021-08-31 20:01:34 UTC</createdTime>
+<ownerDesignName>Data Model</ownerDesignName>
+<engineerTo>
+<item key="503CC900-4387-C5A5-AD92-45EFA5619B1B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id console" id="4861D6DF-1268-BB8E-BED2-5E088B60A197">
+<createdBy>Panky</createdBy>
+<createdTime>2021-08-31 20:01:40 UTC</createdTime>
+<ownerDesignName>Data Model</ownerDesignName>
+<engineerTo>
+<item key="503CC900-4387-C5A5-AD92-45EFA5619B1B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="console name" id="18028238-A3C4-CBBC-B256-71C516BAF2E1">
+<createdBy>Panky</createdBy>
+<createdTime>2021-08-31 20:01:51 UTC</createdTime>
+<ownerDesignName>Data Model</ownerDesignName>
+<engineerTo>
+<item key="503CC900-4387-C5A5-AD92-45EFA5619B1B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="company id company" id="802BC2F0-DEA5-4A7A-035A-8866F80D8220">
+<createdBy>Panky</createdBy>
+<createdTime>2021-08-31 20:11:03 UTC</createdTime>
+<generatorID>33ADCD68-CC3F-A240-E7EE-CD2921AC9AE7</generatorID>
+<ownerDesignName>Data Model</ownerDesignName>
+<engineerTo>
+<item key="503CC900-4387-C5A5-AD92-45EFA5619B1B" value="true"/>
+</engineerTo>
+<referedAttribute>67DE81CA-3A72-A48D-00F2-E9822800FCAB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8E1A9E3D-6FDA-FCAA-F7D9-CCEA721DDC5E" name="console PK">
+<createdBy>Panky</createdBy>
+<createdTime>2021-08-31 20:02:15 UTC</createdTime>
+<ownerDesignName>Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="503CC900-4387-C5A5-AD92-45EFA5619B1B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>4861D6DF-1268-BB8E-BED2-5E088B60A197</newElementsIDs>
+<usedAttributes>
+<attributeRef>4861D6DF-1268-BB8E-BED2-5E088B60A197</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

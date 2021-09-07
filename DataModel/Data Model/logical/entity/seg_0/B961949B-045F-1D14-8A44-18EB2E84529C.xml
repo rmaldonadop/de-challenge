@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B961949B-045F-1D14-8A44-18EB2E84529C" name="videogame_score">
+<createdBy>Panky</createdBy>
+<createdTime>2021-08-31 20:29:00 UTC</createdTime>
+<generatorID>A3F6196F-9893-5AB2-5FEF-066156B9D18A</generatorID>
+<ownerDesignName>Data Model</ownerDesignName>
+<engineerTo>
+<item key="503CC900-4387-C5A5-AD92-45EFA5619B1B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="console id console" id="14054CDD-2DCB-AE08-4638-31B4FFB6F0D3">
+<createdBy>Panky</createdBy>
+<createdTime>2021-08-31 20:29:00 UTC</createdTime>
+<generatorID>6CF8D9E7-224A-5682-8184-DBA4050F1EF4</generatorID>
+<ownerDesignName>Data Model</ownerDesignName>
+<engineerTo>
+<item key="503CC900-4387-C5A5-AD92-45EFA5619B1B" value="true"/>
+</engineerTo>
+<referedAttribute>4861D6DF-1268-BB8E-BED2-5E088B60A197</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="videogame id videogame" id="DB880731-B6AC-93CE-6E78-8653B989F845">
+<createdBy>Panky</createdBy>
+<createdTime>2021-08-31 20:29:00 UTC</createdTime>
+<generatorID>DF3C83B1-9F73-9AE6-021E-88FB50527EB7</generatorID>
+<ownerDesignName>Data Model</ownerDesignName>
+<engineerTo>
+<item key="503CC900-4387-C5A5-AD92-45EFA5619B1B" value="true"/>
+</engineerTo>
+<referedAttribute>56764F9F-AACC-ECA2-5C48-DAA759C5EF95</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="metascore" id="3B05B774-0C17-AB37-AA9F-4063B34DA368">
+<createdBy>Panky</createdBy>
+<createdTime>2021-09-04 19:31:16 UTC</createdTime>
+<ownerDesignName>Data Model</ownerDesignName>
+<engineerTo>
+<item key="503CC900-4387-C5A5-AD92-45EFA5619B1B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="userscore" id="B3F629AA-F8ED-99CB-D85F-F01FD594E8F2">
+<createdBy>Panky</createdBy>
+<createdTime>2021-09-04 19:31:51 UTC</createdTime>
+<ownerDesignName>Data Model</ownerDesignName>
+<engineerTo>
+<item key="503CC900-4387-C5A5-AD92-45EFA5619B1B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date" id="070D2EF7-10BA-25F8-44F6-99265DDF1D44">
+<createdBy>Panky</createdBy>
+<createdTime>2021-09-04 19:32:14 UTC</createdTime>
+<ownerDesignName>Data Model</ownerDesignName>
+<engineerTo>
+<item key="503CC900-4387-C5A5-AD92-45EFA5619B1B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F9648165-4A07-ED08-055F-00AA1F83FCFE" name="Relation 5 PK">
+<createdBy>Panky</createdBy>
+<createdTime>2021-08-31 20:29:00 UTC</createdTime>
+<generatorID>ABE57F1F-F6F9-E3A1-08DB-57852B2E6499</generatorID>
+<ownerDesignName>Data Model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="503CC900-4387-C5A5-AD92-45EFA5619B1B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>14054CDD-2DCB-AE08-4638-31B4FFB6F0D3</attributeRef>
+<attributeRef>DB880731-B6AC-93CE-6E78-8653B989F845</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

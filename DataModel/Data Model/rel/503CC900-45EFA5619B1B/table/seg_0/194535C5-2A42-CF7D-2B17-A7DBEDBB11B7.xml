@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="194535C5-2A42-CF7D-2B17-A7DBEDBB11B7" name="videogame">
+<createdBy>Panky</createdBy>
+<createdTime>2021-09-04 21:28:41 UTC</createdTime>
+<generatorID>78BFCCD9-986A-7B73-7AE2-E502B168A04A</generatorID>
+<ownerDesignName>Data Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_videogame" id="365EA345-81F1-1C4E-D908-00AD48C358DE">
+<createdBy>Panky</createdBy>
+<createdTime>2021-09-04 21:28:41 UTC</createdTime>
+<generatorID>56764F9F-AACC-ECA2-5C48-DAA759C5EF95</generatorID>
+<ownerDesignName>Data Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="videogame_name" id="A7795C7B-C509-F618-3329-DAE7B4AA765E">
+<createdBy>Panky</createdBy>
+<createdTime>2021-09-04 21:28:41 UTC</createdTime>
+<generatorID>171159C8-0310-63DD-0631-022528435468</generatorID>
+<ownerDesignName>Data Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="89B59A2B-F2E6-7C66-7B6C-85FDD597009C" name="videogame_PK">
+<createdBy>Panky</createdBy>
+<createdTime>2021-09-04 21:28:41 UTC</createdTime>
+<generatorID>F14CB101-C3BA-61EC-2E1A-CEDD861F8E37</generatorID>
+<ownerDesignName>Data Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="365EA345-81F1-1C4E-D908-00AD48C358DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

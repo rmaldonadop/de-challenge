@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="92D112EB-3FB1-839F-338F-B842DC59865F" name="videogame_score">
+<createdBy>Panky</createdBy>
+<createdTime>2021-09-04 21:28:41 UTC</createdTime>
+<generatorID>B961949B-045F-1D14-8A44-18EB2E84529C</generatorID>
+<ownerDesignName>Data Model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="console_id_console" id="23A76AEA-EEE4-195F-2BA3-9D9C3727A8C0">
+<createdBy>Panky</createdBy>
+<createdTime>2021-09-04 21:28:41 UTC</createdTime>
+<generatorID>14054CDD-2DCB-AE08-4638-31B4FFB6F0D3</generatorID>
+<ownerDesignName>Data Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="29957421-5F1A-403C-71ED-ACF78E1E38EE" referredColumn="C157D676-43C7-011A-9EAA-E1420E48BC2B"/>
+</associations>
+</Column>
+<Column name="videogame_id_videogame" id="AC48EC34-1B50-BAEE-1758-8FF155881612">
+<createdBy>Panky</createdBy>
+<createdTime>2021-09-04 21:28:41 UTC</createdTime>
+<generatorID>DB880731-B6AC-93CE-6E78-8653B989F845</generatorID>
+<ownerDesignName>Data Model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CEED7B32-3537-D3B4-5675-EDAECA074378" referredColumn="365EA345-81F1-1C4E-D908-00AD48C358DE"/>
+</associations>
+</Column>
+<Column name="metascore" id="544B74EF-766C-0BB5-5E27-AE79B5FAFA85">
+<createdBy>Panky</createdBy>
+<createdTime>2021-09-04 21:28:41 UTC</createdTime>
+<generatorID>3B05B774-0C17-AB37-AA9F-4063B34DA368</generatorID>
+<ownerDesignName>Data Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="userscore" id="A9ED1CB9-E4BA-0607-8EE8-3B7470340DC6">
+<createdBy>Panky</createdBy>
+<createdTime>2021-09-04 21:28:41 UTC</createdTime>
+<generatorID>B3F629AA-F8ED-99CB-D85F-F01FD594E8F2</generatorID>
+<ownerDesignName>Data Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date" id="753D4B0C-59D0-2542-66CA-DF21DE9CB762">
+<createdBy>Panky</createdBy>
+<createdTime>2021-09-04 21:28:41 UTC</createdTime>
+<generatorID>070D2EF7-10BA-25F8-44F6-99265DDF1D44</generatorID>
+<ownerDesignName>Data Model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B6AE02B3-D5F3-EA02-508D-01D7285DA888" name="videogame_score_PK">
+<createdBy>Panky</createdBy>
+<createdTime>2021-09-04 21:28:41 UTC</createdTime>
+<generatorID>F9648165-4A07-ED08-055F-00AA1F83FCFE</generatorID>
+<ownerDesignName>Data Model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23A76AEA-EEE4-195F-2BA3-9D9C3727A8C0"/>
+<colUsage columnID="AC48EC34-1B50-BAEE-1758-8FF155881612"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65199219-B5F8-C71D-5039-424678EC5E23" name="videogame_score_console_FK">
+<createdBy>Panky</createdBy>
+<createdTime>2021-09-04 21:28:41 UTC</createdTime>
+<generatorID>6CF8D9E7-224A-5682-8184-DBA4050F1EF4</generatorID>
+<ownerDesignName>Data Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23A76AEA-EEE4-195F-2BA3-9D9C3727A8C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5F55F5B-B28F-E1E6-C8AF-E01FB440C147" name="videogame_score_videogame_FK">
+<createdBy>Panky</createdBy>
+<createdTime>2021-09-04 21:28:41 UTC</createdTime>
+<generatorID>DF3C83B1-9F73-9AE6-021E-88FB50527EB7</generatorID>
+<ownerDesignName>Data Model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC48EC34-1B50-BAEE-1758-8FF155881612"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

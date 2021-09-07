@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="console company FK" directorySegmentName="seg_0" id="33ADCD68-CC3F-A240-E7EE-CD2921AC9AE7">
+<createdBy>Panky</createdBy>
+<createdTime>2021-08-31 20:11:03 UTC</createdTime>
+<ownerDesignName>Data Model</ownerDesignName>
+<engineerTo>
+<item key="503CC900-4387-C5A5-AD92-45EFA5619B1B" value="true"/>
+</engineerTo>
+<sourcePk>6E3689A1-FE85-4766-E927-DAFE912DA7B0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>50669074-8D1B-0A1E-03F7-EEC549F4029C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2D872B5B-AE4A-ECF8-4CED-9D68125C36C8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
