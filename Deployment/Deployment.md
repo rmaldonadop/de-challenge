@@ -42,3 +42,5 @@ you are ready to run the python code
 python etl-db.py
 ```
 
+# note
+- edit the config.ini file to set the required parameters
